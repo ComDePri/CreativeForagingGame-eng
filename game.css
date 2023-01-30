@@ -127,7 +127,7 @@ a {
 
 #done-adding {
   position: absolute;
-  top: 590px;
+  top: 420px;
   right: 10px;
   left: 400px;
 }
@@ -233,7 +233,11 @@ a {
 }
 
 #thanks-block {
-  height: 670px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #stuck-message {
